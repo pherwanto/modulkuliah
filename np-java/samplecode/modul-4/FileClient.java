@@ -8,7 +8,7 @@ public class FileClient {
 
         try {
             // Membaca file yang akan dikirim ke server
-            String filePath = "path/to/your/file.txt";
+            String filePath = "README.md";
             File file = new File(filePath);
 
             Socket clientSocket = new Socket(SERVER_IP, SERVER_PORT);
